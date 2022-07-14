@@ -27,4 +27,5 @@ isinf(double) [enable_if:true]
 or via the command line interface
 ```bash
 $ demangle _Z5isinfUa9enable_ifILb1EEd
+isinf(double) [enable_if:true]
 ```
