@@ -1,0 +1,28 @@
+# LLVM-Demangle
+Pyhton wrapper around llvm::demangle.
+
+## Requirements
+- Cython
+- llvm
+- g++
+
+## Install
+```bash
+$ pip install llvm-demangle
+```
+or
+```bash
+$ git clone https://github.com/MNayer/llvmdemangle
+$ cd llvmdemangle
+$ pip install .
+```
+
+## Usage
+```python
+from llvmdemangle.demangle import llvm_demangle
+llvm_demangle("_Z5isinfUa9enable_ifILb1EEd")
+```
+
+```bash
+$ demangle _Z5isinfUa9enable_ifILb1EEd
+```
